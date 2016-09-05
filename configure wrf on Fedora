@@ -1,2 +1,9 @@
                  Install fedora 24
 install gcc gcc-gfortran 
+install hdf 
+configure HDF with 
+--prefix=PREFIX  
+--enable-fortran        Compile the Fortran 77/90/95 interface [default=no]
+--enable-fortran2003    Compile the Fortran 2003 interface, must also
+                          specify --enable-fortran [default=no]
+--enable-cxx            Compile the C++ interface [default=no]
