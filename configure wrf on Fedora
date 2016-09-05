@@ -1,5 +1,7 @@
                  Install fedora 24
-install gcc gcc-gfortran 
+1.install gcc gcc-gfortran 
+
+2.get hdf from https://github.com/live-clones/hdf5
 install hdf 
 configure HDF with 
 --prefix=PREFIX  
